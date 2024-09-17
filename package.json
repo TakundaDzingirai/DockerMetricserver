@@ -1,0 +1,15 @@
+{
+    "name": "metrics-server",
+    "version": "1.0.0",
+    "description": "A simple metrics server for Prometheus",
+    "main": "metrics-server.js",
+    "scripts": {
+        "start": "node metrics-server.js"
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "prom-client": "^13.2.0",
+        "sequelize": "^6.6.5",
+        "sqlite3": "^5.0.2"
+    }
+}
